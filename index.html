@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню навигации</title>
+	<link rel="stylesheet" href="style1.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: #333; 
+            padding: 10px 0;
+        }
+        ul {
+            list-style-type: none; 
+            margin: 0;
+            padding: 0;
+            display: flex; 
+            justify-content: center; 
+        }
+        li {
+            margin: 0 15px;
+        }
+        a {
+            color: white; 
+            text-decoration: none; 
+            font-size: 18px;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #575757;
+        }
+        .active {
+            background-color: #007BFF;
+            color: white;
+        }
+		a:hover {
+  text-decoration: underline;
+  color: red;
+}
+    </style>
+</head>
+<body>
+    <nav class="main-menu">
+        <ul>
+            <li><a href="#" class="active">Главная</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <div style="padding: 20px; text-align: center;">
+        <h1>Добро пожаловать!</h1>
+		 <h2>Фен WHOOSH</h2>
+			<img src="material.jpg" alt="Фен" width="500">
+    </div>
+<button class="my-button">Нажми меня</button>
+</body>
+</html>
